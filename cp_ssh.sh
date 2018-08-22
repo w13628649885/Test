@@ -16,3 +16,5 @@ for i in $host_list ;do
                 echo "$i is not ok"
         fi
 done
+
+#如果还是要你输入yes or  no  那就创建一个文件/root/.ssh/config 在这里面添加一行  StrictHostKeyChecking=no
